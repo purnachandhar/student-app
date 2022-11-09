@@ -1,0 +1,5 @@
+import 'package:student/controllers/mobileVerificationStateController.dart';
+import 'package:student/controllers/student_auth_controller.dart';
+
+StudentAuthController studentAuthController = StudentAuthController.instance;
+MobileVerificationStateController mobileVerificationStateController = MobileVerificationStateController.instance;
